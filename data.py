@@ -5,7 +5,7 @@ from datetime import datetime
 import pytz
 
 # --- 1. PAGE SETUP & CUSTOM CSS ---
-st.set_page_config(page_title="Where are the Watsons?, layout="wide")
+st.set_page_config(page_title="Where are the Watsons?", layout="wide")
 
 st.markdown("""
 <style>
