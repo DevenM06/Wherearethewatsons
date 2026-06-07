@@ -39,7 +39,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title-text">🌍 Where are Watsons? </div>', unsafe_allow_html=True)
+st.markdown('<div class="title-text">🌍 Where are the Watsons? </div>', unsafe_allow_html=True)
 
 # --- 2. DATA & REAL-TIME CALCULATIONS ---
 team_data = [
@@ -109,7 +109,7 @@ fig = go.Figure(data=go.Scattergeo(
 ))
 
 fig.update_layout(
-    font=dict(family="'IBM Plex Sans', sans-serif", size=13, color="white"),
+    font=dict(family="'IBM Plex Sans', sans-serif", size=15, color="white"),
     geo=dict(
         projection_type='orthographic',
         showland=True,
