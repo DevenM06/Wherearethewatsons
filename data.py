@@ -5,7 +5,7 @@ from datetime import datetime
 import pytz
 
 # --- 1. PAGE SETUP & CUSTOM CSS ---
-st.set_page_config(page_title="Team Globe", layout="wide")
+st.set_page_config(page_title="Where are the Watsons?, layout="wide")
 
 st.markdown("""
 <style>
@@ -39,7 +39,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title-text">🌍 Team Global Operations</div>', unsafe_allow_html=True)
+st.markdown('<div class="title-text">🌍 Where are Watsons? </div>', unsafe_allow_html=True)
 
 # --- 2. DATA & REAL-TIME CALCULATIONS ---
 team_data = [
